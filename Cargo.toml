@@ -1,6 +1,10 @@
 [package]
-name = "cosmic-terminal-toggle"
+name = "cosmic-toggle-terminal"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+wayland-backend = "0.3"
+wayland-client = "0.31"
+wayland-protocols = { version = "0.32", features = ["client", "staging"] }
+cosmic-protocols = { git = "https://github.com/pop-os/cosmic-protocols", features = ["client"] }
