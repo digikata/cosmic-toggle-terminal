@@ -2,6 +2,9 @@
 name = "cosmic-toggle-terminal"
 version = "0.1.0"
 edition = "2024"
+license = "GPL-3.0-only"
+authors = ["Alan Chen <argot@digikata.com>"]
+description = "Command line utility to map a cosmic hotkey to to open/close a popup terminal"
 
 [dependencies]
 wayland-backend = "0.3"
